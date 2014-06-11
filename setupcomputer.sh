@@ -25,7 +25,7 @@ sudo apt-get -y upgrade
 
 #installfest
 echo 'Installing a bunch of crap with apt'
-sudo apt-get -y install chromium-browser git zsh wget nodejs-legacy openjdk-7-jdk
+sudo apt-get -y install chromium-browser git zsh wget nodejs-legacy openjdk-7-jdk npm
 
 #set up git stuff
 echo "please enter your name: "
