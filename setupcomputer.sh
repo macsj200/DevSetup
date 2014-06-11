@@ -2,7 +2,7 @@
 
 ############################
 # This is the setup script for the CodeHub course
-# It gets you up and running with nodejs, git, chromium, webstorm, zsh and ohmyzsh
+# It gets you up and running with nodejs, git, chromium, express,mongodb, zsh and ohmyzsh
 # It also updates stuff
 
 # This assumes you are using Ubuntu 14.04 LTS, so if you're not, good luck
@@ -54,6 +54,9 @@ wget --no-check-certificate 'http://install.ohmyz.sh' -O - | sh
 echo 'Changing your default shell to zsh'
 echo "You'll need to type your password"
 chsh -s /bin/zsh
+
+#install express
+sudo npm install -g express
 
 #clean up after ourselves
 rm -rf /tmp/setupstuff
