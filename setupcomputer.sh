@@ -39,9 +39,14 @@ read gitEmail
 git config --global user.email "$gitEmail"
 git config --global user.name "$name"
 
+#install ohmyzsh
+echo 'Installing ohmyzsh'
+wget --no-check-certificate 'http://install.ohmyz.sh' -O - | sh
 
-
-
+#change default shell to zsh
+echo 'Changing your default shell to zsh'
+echo "You'll need to type your password"
+chsh -s /bin/zsh
 
 #get and install webstorm
 echo "installing webstorm"
@@ -52,15 +57,6 @@ sudo mv WebStorm-135.937 ~
 cd ~
 cd WebStorm-135.937/bin
 ./webstorm.sh &
-
-#install ohmyzsh
-echo 'Installing ohmyzsh'
-wget --no-check-certificate 'http://install.ohmyz.sh' -O - | sh
-
-#change default shell to zsh
-echo 'Changing your default shell to zsh'
-echo "You'll need to type your password"
-chsh -s /bin/zsh
 
 #install express
 sudo npm install -g express
