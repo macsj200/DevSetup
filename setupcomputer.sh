@@ -29,7 +29,7 @@ sudo apt-get -y -q upgrade
 
 #installfest
 echo 'Installing a bunch of crap with apt'
-sudo apt-get -y install chromium-browser git zsh wget openjdk-7-jdk npm google-chrome-stable
+sudo apt-get -y install git zsh wget openjdk-7-jdk npm google-chrome-stable
 
 #set up git stuff
 echo "please enter your name: "
