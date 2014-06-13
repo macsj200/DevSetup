@@ -69,7 +69,7 @@ sudo npm install -g express
 sudo rm -rf ~/tmp
 
 #install yeoman
-npm install -g yo
+sudo npm install -g yo
 
 #clear tmp dir
 sudo rm -rf ~/tmp
