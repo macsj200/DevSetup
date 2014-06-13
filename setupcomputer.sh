@@ -64,8 +64,14 @@ chsh -s /bin/zsh
 #install express
 sudo npm install -g express
 
+#clear tmp dir
+sudo rm -rf ~/tmp
+
 #install yeoman
 npm install -g yo
+
+#clear tmp dir
+sudo rm -rf ~/tmp
 
 #clean up after ourselves
 rm -rf /tmp/setupstuff
