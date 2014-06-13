@@ -70,6 +70,12 @@ sudo npm install -g yo
 #clear tmp dir
 sudo rm -rf ~/tmp
 
+#install yeoman generator
+sudo npm -g install generator-angular-fullstack
+
+#clear tmp dir
+sudo rm -rf ~/tmp
+
 #clean up after ourselves
 rm -rf /tmp/setupstuff
 
