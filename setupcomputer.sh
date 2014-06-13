@@ -45,6 +45,7 @@ git config --global user.name "$name"
 
 #get and install webstorm
 echo "installing webstorm"
+cd /tmp/setupstuff
 wget "http://download.jetbrains.com/webstorm/WebStorm-8.0.3.tar.gz"
 tar -zxvf /tmp/setupstuff/WebStorm-8.0.3.tar.gz
 sudo mv WebStorm-135.937 /usr/bin
