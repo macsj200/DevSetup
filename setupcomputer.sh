@@ -29,7 +29,7 @@ sudo apt-get -y -q upgrade
 
 #installfest
 echo 'Installing a bunch of crap with apt'
-sudo apt-get -y install git zsh wget openjdk-7-jdk nodejs-legacy npm google-chrome-stable
+sudo apt-get -y install git zsh wget openjdk-7-jdk nodejs-legacy npm google-chrome-stable mongodb
 
 #set up git stuff
 echo "please enter your name: "
@@ -64,6 +64,13 @@ sudo npm install -g express
 #clear tmp dir
 sudo rm -rf ~/tmp
 
+#install grunt
+sudo npm install -g grunt-cli
+
+#clear tmp dir
+sudo rm -rf ~/tmp
+
+
 #install yeoman
 sudo npm install -g yo
 
@@ -71,7 +78,7 @@ sudo npm install -g yo
 sudo rm -rf ~/tmp
 
 #install yeoman generator
-sudo npm -g install generator-angular-fullstack
+sudo npm -g install generator-meanjs
 
 #clear tmp dir
 sudo rm -rf ~/tmp
