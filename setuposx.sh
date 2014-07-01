@@ -14,17 +14,6 @@
 echo "Getting password to do stuff"
 sudo echo ""
 
-#get and install git
-curl "https://git-osx-installer.googlecode.com/files/git-1.8.4.2-intel-universal-snow-leopard.dmg" -o "git.dmg"
-hdiutil attach git.dmg
-#TODO add command to launch installer
-
-#get and install xcode
-
-#get and install webstorm
-curl "http://download.jetbrains.com/webstorm/WebStorm-8.0.4.dmg?_ga=1.63790056.671941123.1403314849" -o "webstorm.dmg"
-hdiutil attach webstorm.dmg
-
 #get and install homebrew
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
