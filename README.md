@@ -1,4 +1,4 @@
 CodeHubSetup
 ============
 
-Setup instructions and files for the CodeHub course
+Setup instructions and files for me
